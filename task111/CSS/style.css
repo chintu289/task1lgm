@@ -1,0 +1,402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+h1{
+    font-family: 'PT Sans', sans-serif;  
+    text-transform: uppercase;
+    font-weight:1000;   
+} 
+body{
+    overflow-x: hidden;
+    overflow-x: hidden;
+} 
+p {
+    display: block; 
+    margin-block-start: 1em;
+    margin-block-end: 1em; 
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #737373;
+    font-weight: 700; 
+} 
+h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em; 
+    margin-inline-start: 0px; 
+    margin-inline-end: 0px;
+    font-weight:900 !important;  
+} 
+img{
+    vertical-align: middle;
+    height: 290px;
+    width: 288px; 
+    margin-top: 33px;
+    margin-bottom: 58px; 
+    margin-left: -15px; 
+}       
+h6 {
+    font-size: 24px;
+    margin-top: -25px;
+    margin-bottom: 8px;
+    font-weight:bold !important;    
+    font-family: cursive; 
+}   
+ 
+/* ........................................................................ */
+.btn{ 
+    transition: all 300ms ease-in;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color:white;
+    color: #3c3c3c; 
+    border:1px solid #fff;  
+}
+/* ...................................................................... */
+.cantainer{
+    margin: 0px 29px;  
+    height:48px;   
+    position: relative;
+}      
+.navbar-inverse .navbar-brand { 
+        color: #fbf7f7; 
+        font-family: ui-serif;
+        font-size: 30px; 
+    } 
+.navbar a:hover{ 
+       border-bottom:solid rgb(12, 168, 240); 
+} 
+.navbar {
+    position: sticky;
+    min-height: 50px;
+    margin-bottom: 0px;  
+    border: 1px darkgray;
+    border-radius: 0px;
+ }
+.navbar-right {
+    float: right;
+    margin-right: 15px; 
+} 
+/* ...................................header ...................................................... */
+.col-md-12 {
+    position: relative;
+    min-height: 45px;
+    padding-right: 20px;  
+    padding-left: 20px; 
+} 
+.header{
+     background-image:url(../image/guru.webp);      
+     background-size: cover;  
+     background-position: center;   
+     height: 100vh;
+ }
+ .header h1{ 
+    color: rgb(233, 255, 34); 
+    text-align: center; 
+    font-size: 60px;   
+    margin-top:170px; 
+    margin-left: 80px; 
+    margin-right: 80px;     
+}
+ .header h3{
+    text-align: center;
+    color:white;   
+    font-weight: 1000; 
+    font-style: initial;  
+    margin-left: 80px; 
+    margin-right: 70px;  
+    margin-top: 50px;   
+    margin-bottom: 50px;   
+ }
+.header strong{ 
+     color: rgb(113, 249, 20);
+     font-weight:1000px;     
+ }
+.flex-Container{
+    display: flex !important;
+    border: 1px solid transparent !important; 
+    height: 100px;
+    justify-content: center;
+} 
+.flex{
+    text-align: center;
+    align-self:center;
+    color: yellow;
+    border-radius: 2; 
+    border: 0;
+    background-color: #12122D;
+}
+/* ***************************************************************************** */
+ 
+.Home{  
+    margin-top:30px;   
+    margin-bottom:30px;
+    text-align: center; 
+  
+} 
+.container hr{
+    margin-top: 15px ;  
+    margin-bottom:40px;    
+    border: 0;
+    border-top:0px solid #eee;      
+}    
+.Home h4{
+     color: black; 
+     padding-top: 30px 0 0 30 px; 
+     margin-top: 20px; 
+     font-family: 'Times New Roman', Times, serif;  
+     font-weight:700;  
+     font-size: 30px;  
+}     
+.Home i {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    padding: 9px 10px;
+    color: white;
+    background-color: #57dbf9;
+    border-radius: 50%;
+    line-height: revert;    
+}    
+/* *********************projectt style********************************************* */
+.Project{
+    text-align: center;
+    margin-top: 0px; 
+    padding: 60px;
+    min-height: 100px;
+    padding-top: 15px; 
+    background-color: rgba(44, 40, 40, 0.158); 
+}
+
+ /* ************************Pricing table**********************************************************/
+
+.Pricing{
+    text-align: center;
+    margin-top: 0px;
+    padding: 60px;
+    min-height: 100px;
+    padding-top: 15px; 
+    background-color: rgb(219, 219, 188); 
+} 
+ 
+ /* ******************************Team******************************************************* */
+  
+ .Team{
+     padding: 50px 0px 80px;
+     text-align: center;
+     background-color: #c5def7; 
+ } 
+.Team h2{
+    margin: 20px,0px,20px;
+    color: brown; 
+}      
+.Team h4{
+    margin: 20px,0px,20px;
+    color: brown;
+}
+.Team h6{
+    margin: 20px,0px,20px;
+    color: brown;
+} 
+.Team p{
+    color:black; 
+}  
+.Team img{
+    height: 195px;
+    width: 240px;
+    margin-top: 30px;
+    border-radius: 28%;
+}    
+.Team i {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: chocolate;
+    color: rgb(255, 255, 255); 
+}
+/* ******************************zippy life******************************************** */
+.zippy{
+    margin: 15px; 
+    padding: 0;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-colo:white;
+}
+.slider{ 
+    width: 840px;
+    height: 630px;  
+    border-radius: 10px;
+}  
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}  
+.slides input{
+    display: none; 
+}
+.slide{
+    width: 19%; 
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+    height: 500px;   
+}
+
+  .navigation-manual{
+      position: absolute;
+      width: 800px;
+      margin-top: 565px;
+      display: flex;
+      justify-content: center; 
+
+  }
+  .manual-btn{
+      border: 2px solid rgb(0, 162, 255);
+      padding: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;
+  }
+  .manual-btn:not(:last-child)
+  { 
+      margin-right:20px;       
+  } 
+  .manual-btn:hover{
+      background: rgb(0, 162, 255);  
+  }  
+  #radio1:checked ~ .first{
+      margin-left: 0 ;
+  }
+  #radio2:checked ~ .first{
+      margin-left: -20%;
+  }
+  #radio3:checked ~ .first{
+      margin-left: -40% ;
+  }
+  #radio4:checked ~ .first{
+      margin-left: -60% ;  
+  }   
+.navigation-auto{
+    position: absolute;
+      display: flex;
+      width: 840px;
+      justify-content: center;
+      margin-top: 492px;  
+}   
+.navigation-auto div{
+    border: 2px solid rgb(0,162,255); 
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right:20px;   
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgb(226, 226, 236);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background:rgb(255, 38, 0); 
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{ 
+    background:rgb(217, 255, 0);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background:rgb(255, 0, 255);
+}   
+/* ***********************************Blog**************************************** */
+.Blog{
+    text-align: center;
+    margin-top: 0px; 
+    padding: 60px;
+    min-height: 100px;
+    padding-top: 15px; 
+    background-color: rgb(133, 209, 205);  
+} 
+.Blog h5{
+    font-size: 15px;  
+    font-weight: bolder; 
+    font-style: italic; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+/* **********************Conact****************************** */
+.contacts{
+    padding: 50px 0px 50px;
+    text-align: center; 
+    background-color: yellow;
+} 
+.contacts p {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 50px; 
+    color: black; 
+    font-weight: 700;   
+    font-size: 20px;    
+}  
+.contacts .input-group{
+    margin-bottom: 25px;  
+} 
+
+.contacts .input-group-addon{
+    height: 38px;
+    padding: 2px 10px;
+    font-size: 19px;
+    line-height: 1.3333333;
+    border-radius: 7px;  
+}   
+.contacts .control {
+    height: 37px;
+    width: 518px;
+} 
+ .contacts .btn{
+     margin-top: 5px;
+     width: 100%; 
+     font-size: 15px !important;     
+     background-color: red;    
+     font-weight:800;    
+     color:#fff; 
+ }
+ /* ***********************************footer*********************************************************** */
+ .footer{
+      padding-top: 100px;
+      padding-bottom: 60px;  
+      background: rgb(226, 157, 157); 
+ }
+ .footer i{
+    /* background-color: chocolate; */ 
+    margin-right: 10px;   
+    width: 15px;
+    height: 15px;
+ }
+ 
+ .footer .social{
+     font-size: 20px;
+     height: 30px;
+     width: 30px;
+     text-align: center;
+     padding: 2px;
+     margin-bottom: 15px;
+     margin-right: 5px;
+      color: white;   
+ }  
+ .footer .form-control{
+     width: 50%; 
+ }
+ .footer .btn{
+    margin-top: -3px;
+    margin-left: -3px;
+ }   
+    
